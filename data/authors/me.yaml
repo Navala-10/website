@@ -61,9 +61,9 @@ education:
       url: /resume.pdf
       icon: hero/arrow-down-tray
   - degree: "Certificate, Child Development and Neuroscience"
-      institution: "Universiteit Utrecht"
-      start: 2022-09-01
-      end: 2024-06-30
+    institution: "Universiteit Utrecht"
+    start: 2022-09-01
+    end: 2024-06-30
       summary: |
         Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
       button:
