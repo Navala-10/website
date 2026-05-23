@@ -10,8 +10,8 @@ sections:
   # ────────────────────────────────────────────────────────────────────────────
   - block: markdown
     content:
-      title: "Nawal Ibnousaih"
-      subtitle: "Aspiring Ph.D. Researcher | Psycholinguistics & Neuroscience"
+      title: "Nawal Ibnou Saih"
+      subtitle: "Aspiring Ph.D. Researcher | Psycholinguistics & Neurosciences"
       text: |-
         <div style="text-align: center; margin-top: -1rem; margin-bottom: 2rem;">
           <p style="font-size: 1.1rem; font-style: italic; opacity: 0.8;">(She/Her)</p>
