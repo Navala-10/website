@@ -41,9 +41,7 @@ sections:
     content:
       title: '👋 About Me'
       subtitle: ''
-      text: |-
-        Master’s graduate specializing in **English Studies, Neurodevelopmental Disorders, and Linguistics**. Passionate about metacognition, speech, and language acquisition, I am currently seeking **Ph.D. positions for next year** in **psycholinguistics and neuroscience** to further explore the intersection of mind, brain, and language.
-
+      text: "Master's graduate specializing in **English Studies**, **Neurodevelopmental Disorders**, and **Linguistics**."
         With a academic journey driven by a fascination with how the brain processes language, I blend linguistic theory with a deep understanding of cognitive differences. I am eager to leverage my interdisciplinary training to explore how language shapes—and is shaped by—the human brain, contributing to research that bridges the gap between language acquisition, cognitive processing, and neurodiversity.
     design:
       columns: '1'
