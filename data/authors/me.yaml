@@ -9,7 +9,7 @@ name:
   pronouns: she/her
 status:
   icon: "🧠"
-role: Interdisciplinary Researcher Ph.D. Applicant
+role: Interdisciplinary Researcher | Educator | Ph.D. Applicant
 bio: |
   Master’s graduate specializing in English Studies, Neurodevelopmental Disorders, and Linguistics. Passionate about the cognitive frameworks of speech and language processing, I am currently seeking Ph.D. positions for next year in psycholinguistics and neuroscience to further explore the intersection of mind, brain, and language.
 
@@ -28,7 +28,7 @@ links:
   - icon: brands/x
     url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/Navala-10
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/nawal-ibnou-saih/
   - icon: academicons/google-scholar
@@ -50,8 +50,8 @@ interests:
   
 
 education:
-  - degree: MA
-    institution: Institut Catholique
+  - degree: Certificate, Neuroscience and Neuroimaging
+    institution: The Johns Hopkins University
     start: 2022-09-01
     end: 2024-06-30
     summary: |
@@ -60,12 +60,22 @@ education:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
+   - degree: Certificate, Child Development and Neuroscience
+      institution: Universiteit Utrecht
+      start: 2022-09-01
+      end: 2024-06-30
+      summary: |
+        Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      button:
+        text: Download dissertation
+        url: /resume.pdf
+        icon: hero/arrow-down-tray
+  - degree: BA English
     institution: Carnegie Mellon University
     start: 2013-09-01
     end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
+  - degree: Educator 
+    institution: EMAA Business School
     start: 2009-09-01
     end: 2013-05-31
 
