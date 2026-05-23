@@ -6,34 +6,51 @@ date: 2026-05-23
 type: landing
 
 sections:
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECTION 1 : BANNIÈRE PRINCIPALE (Photo, Pronoms, Rôle et Liens)
+  # ────────────────────────────────────────────────────────────────────────────
   - block: resume-biography-3
     content:
-      # This pulls profile data from `content/authors/me/_index.md`
+      # Pulle les données (liens, pronoms, avatar) depuis content/authors/me/_index.md
       username: me
-      text: 'Master’s graduate specializing in English Studies, Neurodevelopmental Disorders, and Linguistics. Passionate about metacognition, speech, and language acquisition, I am currently seeking Ph.D. positions for next year in psycholinguistics and neuroscience to further explore the intersection of mind, brain, and language.'
-      # Show a call-to-action button under your biography
+      text: '' # Laissé vide ici pour éviter la surcharge à droite
       button:
         text: Download CV
-        url: uploads/your-resume.pdf # Place your PDF file in `static/uploads/your-resume.pdf`
+        url: uploads/your-resume.pdf
       headings:
-        about: 'About Me'
-        education: 'Education'
-        interests: 'Research Interests'
+        about: ''
+        education: ''
+        interests: ''
     design:
-      # Use the Gradient Mesh which automatically adapts to the selected theme colors
+      # Fond dégradé fluide qui s'adapte automatiquement au mode sombre/synthwave
       background:
         gradient_mesh:
           enable: true
-
-      # Name heading sizing to accommodate long or short names
+      # Ajustements pour tout centrer proprement et aérer la bannière
+      columns: '1'
       name:
-        size: md # Options: xs, sm, md, lg (default), xl
-
-      # Avatar customization
+        size: lg
       avatar:
-        size: medium # Options: small (150px), medium (200px), large (320px)
-        shape: circle # Options: circle, square, rounded
+        size: medium
+        shape: circle
 
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECTION 2 : VOTRE BIOGRAPHIE (Maintenant positionnée en dessous, bien lisible)
+  # ────────────────────────────────────────────────────────────────────────────
+  - block: markdown
+    content:
+      title: '👋 About Me'
+      subtitle: ''
+      text: |-
+        Master’s graduate specializing in **English Studies, Neurodevelopmental Disorders, and Linguistics**. Passionate about metacognition, speech, and language acquisition, I am currently seeking **Ph.D. positions for next year** in **psycholinguistics and neuroscience** to further explore the intersection of mind, brain, and language.
+
+        With a academic journey driven by a fascination with how the brain processes language, I blend linguistic theory with a deep understanding of cognitive differences. I am eager to leverage my interdisciplinary training to explore how language shapes—and is shaped by—the human brain, contributing to research that bridges the gap between language acquisition, cognitive processing, and neurodiversity.
+    design:
+      columns: '1'
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECTION 3 : PROJET DE RECHERCHE & PROPOSAL
+  # ────────────────────────────────────────────────────────────────────────────
   - block: markdown
     content:
       title: '📚 My Proposal'
@@ -49,71 +66,11 @@ sections:
     design:
       columns: '1'
 
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications # Pulls from `content/publications/`
-        featured_only: true # Only shows publications where `featured: true` in their front matter
-    design:
-      view: article-grid
-      columns: 2
-
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events # Pulls from `content/events/`
-    design:
-      view: card
-
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog # Pulls from `content/blog/` or `content/post/`
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-
+  # ────────────────────────────────────────────────────────────────────────────
+  # SECTION 4 : CONTACT / COLLABORATION
+  # ────────────────────────────────────────────────────────────────────────────
   - block: cta-card
-    demo: false # Set to false so it hides the generic HugoBlox kit promotion
+    demo: false
     content:
       title: '🤝 Let’s Collaborate'
       text: |-
@@ -123,7 +80,6 @@ sections:
         url: 'mailto:ibnousaih.nawal06@gmail.com'
     design:
       card:
-        # Card background color (CSS class)
         css_class: 'bg-primary-300 dark:bg-primary-700'
         css_style: ''
 ---
