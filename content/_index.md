@@ -6,36 +6,28 @@ date: 2026-05-23
 type: landing
 
 sections:
+  # ---
+title: ''
+summary: ''
+date: 2026-05-23
+type: landing
+
+sections:
   # ────────────────────────────────────────────────────────────────────────────
-  # SECTION 1 : BANNIÈRE PRINCIPALE (Photo, Pronoms, Rôle et Liens)
+  # EN-TÊTE CENTRÉ (Exactement comme le site de Léo Dutriaux)
   # ────────────────────────────────────────────────────────────────────────────
-  - block: resume-biography-3
+  - block: about-avatar
     content:
-      # Pulle les données (liens, pronoms, avatar) depuis content/authors/me/_index.md
       username: me
-      text: '' # Laissé vide ici pour éviter la surcharge à droite
-      button:
-        text: Download CV
-        url: uploads/Nawal IbnouSaih Academic CV.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
+      # On laisse le texte vide ici pour que ce bloc ne serve que d'en-tête centré
+      text: '' 
     design:
-      # Fond dégradé fluide qui s'adapte automatiquement au mode sombre/synthwave
       background:
         gradient_mesh:
           enable: true
-      # Ajustements pour tout centrer proprement et aérer la bannière
-      columns: '1'
-      name:
-        size: lg
-      avatar:
-        size: medium
-        shape: circle
 
   # ────────────────────────────────────────────────────────────────────────────
-  # SECTION 2 : VOTRE BIOGRAPHIE (Maintenant positionnée en dessous, bien lisible)
+  # BIOGRAPHIE ET PRÉSENTATION EN DESSOUS (Pleine largeur)
   # ────────────────────────────────────────────────────────────────────────────
   - block: markdown
     content:
