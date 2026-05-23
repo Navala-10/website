@@ -16,7 +16,7 @@ sections:
       text: '' # Laissé vide ici pour éviter la surcharge à droite
       button:
         text: Download CV
-        url: uploads/your-resume.pdf
+        url: uploads/Nawal IbnouSaih Academic CV.pdf
       headings:
         about: ''
         education: ''
