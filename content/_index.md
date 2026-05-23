@@ -23,7 +23,7 @@ sections:
       columns: '1'
       background:
         gradient_mesh:
-          enable: true
+          enable: false
       name:
         size: medium
       avatar:
@@ -39,6 +39,11 @@ sections:
       subtitle: ''
       text: |-
         Master's graduate specializing in **English Studies, Neurodevelopmental Disorders, and Linguistics**. Passionate about the cognitive frameworks of speech and language processing, I am currently seeking Ph.D. positions for next year in psycholinguistic and neurosciences to further explore the intersection of mind, brain, and language.
+
+        <script>
+          document.documentElement.setAttribute('data-theme', 'synthwave');
+          document.documentElement.classList.add('dark');
+        </script>
     design:
       columns: '1'
 
