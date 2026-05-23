@@ -6,16 +6,24 @@ type: landing
 
 sections:
   # ────────────────────────────────────────────────────────────────────────────
-  # EN-TÊTE CENTRÉ (Utilisation du bloc universel Markdown pour éviter les crashs)
+  # EN-TÊTE CENTRÉ AVEC PHOTO (Look Léo Dutriaux garanti)
   # ────────────────────────────────────────────────────────────────────────────
   - block: markdown
     content:
-      title: "Nawal Ibnou Saih"
-      subtitle: "Aspiring Ph.D. Researcher | Psycholinguistics & Neurosciences"
+      title: ""
+      subtitle: ""
       text: |-
-        <div style="text-align: center; margin-top: -1rem; margin-bottom: 2rem;">
-          <p style="font-size: 1.1rem; font-style: italic; opacity: 0.8;">(She/Her)</p>
-          <div style="font-size: 1.2rem; gap: 15px; display: flex; justify-content: center; margin: 1rem 0;">
+        <div style="text-align: center; margin-bottom: 2.5rem;">
+          <!-- Votre Photo de Profil centrée et arrondie -->
+          <img src="assets/media/avatar.jpg" alt="Nawal Ibnousaih" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.5rem auto; border: 3px solid var(--primary); display: block;">
+          
+          <!-- Vos Informations principales -->
+          <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; color: inherit;">Nawal Ibnousaih</h1>
+          <p style="font-size: 1.25rem; font-weight: 600; opacity: 0.9; margin-bottom: 0.25rem;">Aspiring Ph.D. Researcher | Psycholinguistics & Neuroscience</p>
+          <p style="font-size: 1.05rem; font-style: italic; opacity: 0.7; margin-bottom: 1.2rem;">(She/Her)</p>
+          
+          <!-- Liens de contact épurés -->
+          <div style="font-size: 1.1rem; display: flex; justify-content: center; gap: 15px; font-weight: 500;">
             <a href="mailto:ibnousaih.nawal06@gmail.com" style="text-decoration: none;">📧 Email</a> | 
             <a href="https://github.com/Navala-10" target="_blank" style="text-decoration: none;">💻 GitHub</a> | 
             <a href="https://linkedin.com" target="_blank" style="text-decoration: none;">💼 LinkedIn</a>
