@@ -64,16 +64,13 @@ education:
     institution: "Universiteit Utrecht"
     start: 2022-09-01
     end: 2024-06-30
-      summary: |
-        Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-      button:
-        text: Download dissertation
-        url: /resume.pdf
-        icon: hero/arrow-down-tray
-  - degree: BA English
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
+    summary: |
+      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+    button:
+      text: "Download dissertation"  - degree: BA English
+      institution: Carnegie Mellon University
+      start: 2013-09-01
+      end: 2015-05-31
   - degree: Educator 
     institution: EMAA Business School
     start: 2009-09-01
