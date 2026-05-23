@@ -14,7 +14,7 @@ sections:
       text: "" 
       button:
         text: Download CV
-        url: uploads/Nawal IbnouSaih Academic CV.pdf
+        url: "uploads/Nawal IbnouSaih Academic CV.pdf"
       headings:
         about: 'Professional Summary'
         education: 'Education'
@@ -31,19 +31,34 @@ sections:
         shape: circle
 
   # ────────────────────────────────────────────────────────────────────────────
-  # VOTRE BIO PLACÉE SÉPARÉMENT JUSTE EN DESSOUS
+  # VOTRE BIO AVEC LE FORCEUR DE STYLE SYNTHWAVE EN CSS
   # ────────────────────────────────────────────────────────────────────────────
   - block: markdown
     content:
       title: '📝 Professional Summary'
       subtitle: ''
       text: |-
-        Master's graduate specializing in **English Studies, Neurodevelopmental Disorders, and Linguistics**. Passionate about the cognitive frameworks of speech and language processing, I am currently seeking Ph.D. positions for next year in psycholinguistic and neurosciences to further explore the intersection of mind, brain, and language.
+        <style>
+          :root, html, body, [data-theme] {
+            --background: #1a1423 !important;
+            background-color: #2b213a !important;
+            color: #f43f5e !important;
+          }
+          .dark {
+            background-color: #2b213a !important;
+          }
+          h1, h2, h3, strong {
+            color: #f353bb !important;
+          }
+        </style>
 
         <script>
+          localStorage.setItem('theme', 'synthwave');
           document.documentElement.setAttribute('data-theme', 'synthwave');
           document.documentElement.classList.add('dark');
         </script>
+
+        Master's graduate specializing in **English Studies, Neurodevelopmental Disorders, and Linguistics**. Passionate about the cognitive frameworks of speech and language processing, I am currently seeking Ph.D. positions for next year in psycholinguistic and neurosciences to further explore the intersection of mind, brain, and language.
     design:
       columns: '1'
 
