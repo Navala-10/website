@@ -2,54 +2,58 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Nawal Ibnou Saih
+  given: Nawal
+  family: Ibnou Saih
+  alternate: ''
+  pronouns: she/her
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🧠"
+role: Interdisciplinary Researcher Ph.D. Applicant
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Master’s graduate specializing in English Studies, Neurodevelopmental Disorders, and Linguistics. Passionate about the cognitive frameworks of speech and language processing, I am currently seeking Ph.D. positions for next year in psycholinguistics and neuroscience to further explore the intersection of mind, brain, and language.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Institut Catholique de Paris
+    url: https://www.icp.fr/
+  - name: The John Hopkins University
+    url: jhu.edu
+  - name: Montessori La maison des Enfants Inc
+    url: https://maisondesenfantsmontessori.com/en
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ibnousaih.nawal06@gmail.com
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/example
   - icon: brands/github
     url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/nawal-ibnou-saih/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=example
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Language
+  - Neurodevlopmental Disorders
+  - English
+  - Morrocan Darija
+  - French
+  - Ethics
+  - Neuro-imagery
+  - Psychology
+  - Linguistics
+  - Metacognition
+  
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MA
+    institution: Institut Catholique
+    start: 2022-09-01
+    end: 2024-06-30
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
